@@ -1,10 +1,10 @@
 [
   {
     "createdAt": "2025-10-19T13:19:41.046Z",
-    "updatedAt": "2025-10-19T13:20:00.000Z",
+    "updatedAt": "2025-10-19T13:25:38.000Z",
     "id": "I2lsljBeaj2cObRZ",
     "name": "Github Commit",
-    "active": false,
+    "active": true,
     "isArchived": false,
     "nodes": [
       {
@@ -19,7 +19,13 @@
           608
         ],
         "id": "cf8bb0fc-85e3-4717-9ec8-1d94c8e58f80",
-        "name": "n8n"
+        "name": "n8n",
+        "credentials": {
+          "n8nApi": {
+            "id": "JW7e0oIwMdVWoqVt",
+            "name": "n8n account"
+          }
+        }
       },
       {
         "parameters": {
@@ -280,15 +286,15 @@
           "operation": "edit",
           "owner": {
             "__rl": true,
-            "value": "alvinscloud-demo",
+            "value": "benehlo",
             "mode": "name"
           },
           "repository": {
             "__rl": true,
-            "value": "n8n_workflows",
+            "value": "n8n_test",
             "mode": "list",
-            "cachedResultName": "n8n_workflows",
-            "cachedResultUrl": "https://github.com/alvinscloud-demo/n8n_workflows"
+            "cachedResultName": "n8n_test",
+            "cachedResultUrl": "https://github.com/benehlo/n8n_test"
           },
           "filePath": "={{ $('Workflow Values').item.json.github_file_name }}",
           "fileContent": "={{ $('To Base64').item.json.data }}",
@@ -302,7 +308,13 @@
         ],
         "id": "5f7b1436-0297-4a5e-b211-695a9c51b6ce",
         "name": "Update File",
-        "webhookId": "7807fe16-db54-4c7d-936b-d61e7909061a"
+        "webhookId": "7807fe16-db54-4c7d-936b-d61e7909061a",
+        "credentials": {
+          "githubApi": {
+            "id": "r0atuRzTTSsBt1jE",
+            "name": "GitHub account 2"
+          }
+        }
       },
       {
         "parameters": {
@@ -310,15 +322,15 @@
           "operation": "get",
           "owner": {
             "__rl": true,
-            "value": "alvinscloud-demo",
+            "value": "benehlo",
             "mode": "name"
           },
           "repository": {
             "__rl": true,
-            "value": "n8n_workflows",
+            "value": "n8n_test",
             "mode": "list",
-            "cachedResultName": "n8n_workflows",
-            "cachedResultUrl": "https://github.com/alvinscloud-demo/n8n_workflows"
+            "cachedResultName": "n8n_test",
+            "cachedResultUrl": "https://github.com/benehlo/n8n_test"
           },
           "filePath": "={{ $('Workflow Values').item.json.github_file_name }}",
           "asBinaryProperty": false,
@@ -334,7 +346,13 @@
         ],
         "id": "b808efa0-2fee-44e8-badd-88962c388dbf",
         "name": "Download File",
-        "webhookId": "2627f6eb-e6f9-44d7-b943-508c8472f316"
+        "webhookId": "2627f6eb-e6f9-44d7-b943-508c8472f316",
+        "credentials": {
+          "githubApi": {
+            "id": "r0atuRzTTSsBt1jE",
+            "name": "GitHub account 2"
+          }
+        }
       },
       {
         "parameters": {
@@ -407,6 +425,12 @@
         "name": "Find by project id",
         "alwaysOutputData": false,
         "retryOnFail": false,
+        "credentials": {
+          "n8nApi": {
+            "id": "JW7e0oIwMdVWoqVt",
+            "name": "n8n account"
+          }
+        },
         "onError": "continueErrorOutput"
       },
       {
@@ -485,7 +509,7 @@
       },
       {
         "parameters": {
-          "content": "## Click [here](https://your-n8n-url/form/commit?id=123456789ABC) to commit change ",
+          "content": "## Click [here](http://localhost:5678/form-test/commit?id=I2lsljBeaj2cObRZ) to commit change ",
           "height": 140,
           "width": 440,
           "color": 5
@@ -517,20 +541,21 @@
       },
       {
         "parameters": {
-          "authentication": "oAuth2",
           "resource": "file",
           "operation": "list",
           "owner": {
             "__rl": true,
+            "value": "benehlo",
             "mode": "list",
-            "value": ""
+            "cachedResultName": "benehlo",
+            "cachedResultUrl": "https://github.com/benehlo"
           },
           "repository": {
             "__rl": true,
-            "value": "n8n_workflows",
+            "value": "n8n_test",
             "mode": "list",
-            "cachedResultName": "n8n_workflows",
-            "cachedResultUrl": "https://github.com/alvinscloud-demo/n8n_workflows"
+            "cachedResultName": "n8n_test",
+            "cachedResultUrl": "https://github.com/benehlo/n8n_test"
           }
         },
         "type": "n8n-nodes-base.github",
@@ -544,9 +569,9 @@
         "webhookId": "171d0104-1b96-4953-bfb3-18821c7fd7d2",
         "alwaysOutputData": false,
         "credentials": {
-          "githubOAuth2Api": {
-            "id": "irxOOyrs2bDYwnKZ",
-            "name": "GitHub account"
+          "githubApi": {
+            "id": "r0atuRzTTSsBt1jE",
+            "name": "GitHub account 2"
           }
         }
       },
@@ -619,17 +644,17 @@
           "resource": "file",
           "owner": {
             "__rl": true,
-            "value": "alvinscloud-demo",
+            "value": "benehlo",
             "mode": "list",
-            "cachedResultName": "alvinscloud-demo",
-            "cachedResultUrl": "https://github.com/alvinscloud-demo"
+            "cachedResultName": "benehlo",
+            "cachedResultUrl": "https://github.com/benehlo"
           },
           "repository": {
             "__rl": true,
-            "value": "n8n_workflows",
+            "value": "n8n_test",
             "mode": "list",
-            "cachedResultName": "n8n_workflows",
-            "cachedResultUrl": "https://github.com/alvinscloud-demo/n8n_workflows"
+            "cachedResultName": "n8n_test",
+            "cachedResultUrl": "https://github.com/benehlo/n8n_test"
           },
           "filePath": "={{ $('Workflow Values').item.json.github_file_name }}",
           "fileContent": "={{ $('To Base64').item.json.data }}",
@@ -643,7 +668,13 @@
         ],
         "id": "f79a17fd-2ed2-45b1-adc1-ee71b8f4d78e",
         "name": "Commit new workflow",
-        "webhookId": "17c8a323-88d7-4475-a062-c217639b1a66"
+        "webhookId": "17c8a323-88d7-4475-a062-c217639b1a66",
+        "credentials": {
+          "githubApi": {
+            "id": "r0atuRzTTSsBt1jE",
+            "name": "GitHub account 2"
+          }
+        }
       },
       {
         "parameters": {
@@ -1087,10 +1118,12 @@
       "executionOrder": "v1"
     },
     "staticData": null,
-    "meta": null,
+    "meta": {
+      "templateCredsSetupCompleted": true
+    },
     "pinData": {},
-    "versionId": "99715b45-3c7d-45a2-94a4-ffd21b857269",
-    "triggerCount": 0,
+    "versionId": "ec0d9098-a1db-4eb2-b620-c5dc6d47f33f",
+    "triggerCount": 1,
     "shared": [
       {
         "createdAt": "2025-10-19T13:19:41.051Z",
