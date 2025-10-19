@@ -1,7 +1,7 @@
 [
   {
     "createdAt": "2025-10-19T13:19:41.046Z",
-    "updatedAt": "2025-10-19T15:20:40.000Z",
+    "updatedAt": "2025-10-19T16:42:05.000Z",
     "id": "I2lsljBeaj2cObRZ",
     "name": "Github Commit",
     "active": true,
@@ -311,8 +311,8 @@
         "webhookId": "7807fe16-db54-4c7d-936b-d61e7909061a",
         "credentials": {
           "githubApi": {
-            "id": "r0atuRzTTSsBt1jE",
-            "name": "GitHub account 2"
+            "id": "UJRYlOMB7tcs3D1e",
+            "name": "GitHub demo acc"
           }
         }
       },
@@ -349,8 +349,8 @@
         "webhookId": "2627f6eb-e6f9-44d7-b943-508c8472f316",
         "credentials": {
           "githubApi": {
-            "id": "r0atuRzTTSsBt1jE",
-            "name": "GitHub account 2"
+            "id": "UJRYlOMB7tcs3D1e",
+            "name": "GitHub demo acc"
           }
         }
       },
@@ -570,8 +570,8 @@
         "alwaysOutputData": false,
         "credentials": {
           "githubApi": {
-            "id": "r0atuRzTTSsBt1jE",
-            "name": "GitHub account 2"
+            "id": "UJRYlOMB7tcs3D1e",
+            "name": "GitHub demo acc"
           }
         }
       },
@@ -829,17 +829,6 @@
         "id": "da531238-4491-4fbc-bb56-990ec56e7bd5",
         "name": "Comment for commit",
         "webhookId": "8ccc5037-d4c1-4a50-900f-64fb81df1ead"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          -2016,
-          -560
-        ],
-        "typeVersion": 1,
-        "id": "06bdc4f2-e974-40c7-9531-17f0fadc430b",
-        "name": "Sticky Note7"
       }
     ],
     "connections": {
@@ -1133,7 +1122,7 @@
       "templateCredsSetupCompleted": true
     },
     "pinData": {},
-    "versionId": "68b6e031-30c2-4d33-9398-f7bdd2a75b51",
+    "versionId": "44ca02f6-17e0-48d7-90d5-83b05d97d2ed",
     "triggerCount": 1,
     "shared": [
       {
