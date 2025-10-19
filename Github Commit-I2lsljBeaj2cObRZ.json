@@ -1,7 +1,7 @@
-
+[
   {
     "createdAt": "2025-10-19T13:19:41.046Z",
-    "updatedAt": "2025-10-19T13:36:20.000Z",
+    "updatedAt": "2025-10-19T13:43:54.000Z",
     "id": "I2lsljBeaj2cObRZ",
     "name": "Github Commit",
     "active": true,
@@ -15,10 +15,10 @@
         "type": "n8n-nodes-base.n8n",
         "typeVersion": 1,
         "position": [
-          688,
-          608
+          -1888,
+          80
         ],
-        "id": "cf8bb0fc-85e3-4717-9ec8-1d94c8e58f80",
+        "id": "2ec69b2b-393a-4bf0-a305-ab0db7c4dc27",
         "name": "n8n",
         "credentials": {
           "n8nApi": {
@@ -38,10 +38,10 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          1040,
-          672
+          -1536,
+          144
         ],
-        "id": "74830bf9-9ab5-46ec-ac8b-90dfc479dfe3",
+        "id": "49ba5f7d-7d32-453b-ab24-8614bc5b364b",
         "name": "Form",
         "webhookId": "44f6854d-4cda-4b7d-8642-ad893354d296"
       },
@@ -83,10 +83,10 @@
         "type": "n8n-nodes-base.switch",
         "typeVersion": 3.2,
         "position": [
-          512,
-          432
+          -2064,
+          -112
         ],
-        "id": "ca73722f-4a93-4703-a76f-a728a35a108d",
+        "id": "9ffd06d8-e89e-40a6-a5e1-250a914c715d",
         "name": "Switch"
       },
       {
@@ -117,10 +117,10 @@
         "type": "n8n-nodes-base.filter",
         "typeVersion": 2.2,
         "position": [
-          800,
-          672
+          -1776,
+          144
         ],
-        "id": "49314cd0-7b4c-46d9-8b8d-d1373d5d9b00",
+        "id": "9c3c4c8d-9455-4d8b-aee7-773bfc1e2100",
         "name": "Filter"
       },
       {
@@ -133,10 +133,10 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          1600,
-          544
+          -976,
+          16
         ],
-        "id": "d83aec72-c082-4920-92fa-dfab872b11af",
+        "id": "ac71f4f4-c284-4b4f-b6d3-64d0c5da3ff5",
         "name": "Project not found",
         "webhookId": "73c34803-3b2e-49f8-b569-2d468ad4e2b9"
       },
@@ -169,10 +169,10 @@
         "type": "n8n-nodes-base.set",
         "typeVersion": 3.4,
         "position": [
-          1920,
-          368
+          -656,
+          -176
         ],
-        "id": "3f32de7c-963d-4e97-b06e-c9e15e802be4",
+        "id": "ff54b479-d7be-46a2-a1b3-6dab4cb4d09e",
         "name": "Workflow Values"
       },
       {
@@ -204,10 +204,10 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          2320,
-          688
+          -256,
+          160
         ],
-        "id": "f8385f43-97f4-4f69-b50d-c486c974e444",
+        "id": "c0425b0b-e471-4630-973d-268fc9753892",
         "name": "Commit as New",
         "webhookId": "c476e4ea-2b70-4185-8b0b-f45065a2b6a2"
       },
@@ -244,10 +244,10 @@
         "type": "n8n-nodes-base.switch",
         "typeVersion": 3.2,
         "position": [
-          2480,
-          688
+          -96,
+          160
         ],
-        "id": "f214e22a-87f8-45b7-bde8-ddf923283ea8",
+        "id": "a0ef3025-d200-4830-959e-eac474002aa6",
         "name": "Is commit new"
       },
       {
@@ -260,10 +260,10 @@
         "type": "n8n-nodes-base.convertToFile",
         "typeVersion": 1.1,
         "position": [
-          1600,
-          368
+          -976,
+          -176
         ],
-        "id": "5db6dbc3-b011-43d7-a382-996c4639bcb5",
+        "id": "1c93cd41-b3ed-4476-9359-35bd115b5211",
         "name": "JSON File"
       },
       {
@@ -274,10 +274,10 @@
         "type": "n8n-nodes-base.extractFromFile",
         "typeVersion": 1,
         "position": [
-          1760,
-          368
+          -816,
+          -176
         ],
-        "id": "f50d2274-0b10-40d9-89d0-af226e60345d",
+        "id": "2ee6c37d-bf15-4e03-ab53-a1dcce874ec5",
         "name": "To Base64"
       },
       {
@@ -303,10 +303,10 @@
         "type": "n8n-nodes-base.github",
         "typeVersion": 1.1,
         "position": [
-          2848,
-          272
+          272,
+          -272
         ],
-        "id": "5f7b1436-0297-4a5e-b211-695a9c51b6ce",
+        "id": "7b91373f-1c54-4a99-a676-ed5c626b9808",
         "name": "Update File",
         "webhookId": "7807fe16-db54-4c7d-936b-d61e7909061a",
         "credentials": {
@@ -341,10 +341,10 @@
         "type": "n8n-nodes-base.github",
         "typeVersion": 1.1,
         "position": [
-          2320,
-          368
+          -256,
+          -176
         ],
-        "id": "b808efa0-2fee-44e8-badd-88962c388dbf",
+        "id": "1156c986-a0bf-44ce-b5a7-c55254bad1ad",
         "name": "Download File",
         "webhookId": "2627f6eb-e6f9-44d7-b943-508c8472f316",
         "credentials": {
@@ -382,10 +382,10 @@
         "type": "n8n-nodes-base.if",
         "typeVersion": 2.2,
         "position": [
-          2080,
-          368
+          -496,
+          -176
         ],
-        "id": "50931e5c-1d4c-4760-a37f-afb46ee2729b",
+        "id": "9418d13b-acc8-4323-a9bf-c5e273b5e8bf",
         "name": "Found in github"
       },
       {
@@ -398,10 +398,10 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          2704,
-          448
+          128,
+          -96
         ],
-        "id": "f594c824-d559-4b2e-86b6-4ae88499e4f1",
+        "id": "405a5695-3307-4b18-aea6-d196326e21e9",
         "name": "No update detected",
         "webhookId": "1014f819-d761-42f4-afbc-f3968ad7c44a"
       },
@@ -418,10 +418,10 @@
         "type": "n8n-nodes-base.n8n",
         "typeVersion": 1,
         "position": [
-          1392,
-          464
+          -1184,
+          -80
         ],
-        "id": "561c2899-aa8d-4a4f-be0b-c4a3c03951a6",
+        "id": "e7b1471d-7058-47c2-b4b2-ca34a8043a91",
         "name": "Find by project id",
         "alwaysOutputData": false,
         "retryOnFail": false,
@@ -444,10 +444,10 @@
         "type": "n8n-nodes-base.aggregate",
         "typeVersion": 1,
         "position": [
-          928,
-          720
+          -1648,
+          192
         ],
-        "id": "dcfbafc5-7fb2-4abe-9dfd-30254c8b3bdf",
+        "id": "c492f2bb-8439-486f-a3d5-75bc10b104ec",
         "name": "Option aggregate"
       },
       {
@@ -457,10 +457,10 @@
         "type": "n8n-nodes-base.code",
         "typeVersion": 2,
         "position": [
-          1168,
-          592
+          -1408,
+          64
         ],
-        "id": "06551298-c7c5-4411-9baa-ca5b66537c2c",
+        "id": "3a856321-52bd-43ee-b874-3177f81b37cf",
         "name": "Selected id"
       },
       {
@@ -480,10 +480,10 @@
         "type": "n8n-nodes-base.set",
         "typeVersion": 3.4,
         "position": [
-          944,
-          272
+          -1632,
+          -272
         ],
-        "id": "c5ae040f-ea68-4731-92e9-2deee4c40433",
+        "id": "1705edbf-f116-456d-b650-a4da6b077d40",
         "name": "Pass in id"
       },
       {
@@ -500,10 +500,10 @@
         "type": "n8n-nodes-base.formTrigger",
         "typeVersion": 2.2,
         "position": [
-          0,
-          432
+          -2576,
+          -112
         ],
-        "id": "916ef7c9-5415-4af6-95ea-11130e821f64",
+        "id": "8c7b439c-d14e-426f-b823-08d6e98f3894",
         "name": "On form submission",
         "webhookId": "e3f3b1db-fd8c-4eb6-8a30-eea27306b92d"
       },
@@ -516,11 +516,11 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          0,
-          0
+          -2576,
+          -544
         ],
         "typeVersion": 1,
-        "id": "867db429-cfac-4d1c-b09a-704c41a7fd5f",
+        "id": "d7f97685-9596-4190-888e-40545e633c58",
         "name": "Sticky Note"
       },
       {
@@ -532,11 +532,11 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          144,
-          352
+          -2432,
+          -192
         ],
         "typeVersion": 1,
-        "id": "ab44376e-4ea3-496a-a730-5a329d559062",
+        "id": "f8652139-2ef7-4381-ab2b-0c9ea66bcbc0",
         "name": "Sticky Note1"
       },
       {
@@ -561,10 +561,10 @@
         "type": "n8n-nodes-base.github",
         "typeVersion": 1.1,
         "position": [
-          160,
-          432
+          -2416,
+          -112
         ],
-        "id": "6a6c3cec-52c2-4e0d-b2ab-e5bb906905d6",
+        "id": "ab7c4b0c-1d20-4fbb-8fe8-93de24e766cf",
         "name": "GIthub get all",
         "webhookId": "171d0104-1b96-4953-bfb3-18821c7fd7d2",
         "alwaysOutputData": false,
@@ -586,10 +586,10 @@
         "type": "n8n-nodes-base.aggregate",
         "typeVersion": 1,
         "position": [
-          320,
-          432
+          -2256,
+          -112
         ],
-        "id": "0d30c723-d058-445f-9a97-b066321c07d5",
+        "id": "667ee03f-d9ed-4516-9db9-a375c192a16c",
         "name": "Agg. to Array"
       },
       {
@@ -600,11 +600,11 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          672,
-          208
+          -1904,
+          -336
         ],
         "typeVersion": 1,
-        "id": "0ed166b7-96ce-47eb-9c7f-f6c49de66362",
+        "id": "8c4c4447-ed7d-4f94-b95b-d4b1edb10045",
         "name": "Sticky Note2"
       },
       {
@@ -616,11 +616,11 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          672,
-          528
+          -1904,
+          -16
         ],
         "typeVersion": 1,
-        "id": "b78ae579-68da-4a59-a1c6-a78487e655fb",
+        "id": "b476727e-4f5d-4bad-884a-40a460e32297",
         "name": "Sticky Note3"
       },
       {
@@ -632,11 +632,11 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          1568,
-          288
+          -1008,
+          -256
         ],
         "typeVersion": 1,
-        "id": "22ffdb94-5a6e-4541-9e66-e2bad7bb0dfa",
+        "id": "b26112cc-e6ed-41d3-8150-b3b0847365d7",
         "name": "Sticky Note4"
       },
       {
@@ -663,10 +663,10 @@
         "type": "n8n-nodes-base.github",
         "typeVersion": 1.1,
         "position": [
-          2832,
-          688
+          256,
+          160
         ],
-        "id": "f79a17fd-2ed2-45b1-adc1-ee71b8f4d78e",
+        "id": "2febb76e-d4c5-4651-abe0-6eef8ff36e73",
         "name": "Commit new workflow",
         "webhookId": "17c8a323-88d7-4475-a062-c217639b1a66",
         "credentials": {
@@ -703,10 +703,10 @@
         "type": "n8n-nodes-base.if",
         "typeVersion": 2.2,
         "position": [
-          2512,
-          368
+          -64,
+          -176
         ],
-        "id": "4ce69f6b-e0d7-4967-8639-2fd969491031",
+        "id": "2cad2dd2-871a-4ac4-ace5-bc4688c3e467",
         "name": "Check any update"
       },
       {
@@ -718,11 +718,11 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          2288,
-          208
+          -288,
+          -336
         ],
         "typeVersion": 1,
-        "id": "b71511f2-f73d-4779-9b2a-f1bd5811c224",
+        "id": "c11745bc-0709-41ab-894a-580477dc3487",
         "name": "Sticky Note5"
       },
       {
@@ -734,11 +734,11 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          2288,
-          608
+          -288,
+          80
         ],
         "typeVersion": 1,
-        "id": "50c1f6a8-3072-405a-b991-78ff4e400a7d",
+        "id": "c1e99a89-f3c2-418f-9fda-d6a7c16467a9",
         "name": "Sticky Note6"
       },
       {
@@ -751,10 +751,10 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          3008,
-          272
+          432,
+          -272
         ],
-        "id": "727d84b0-aa53-4b97-add4-1a0f094b8e7a",
+        "id": "b0ecc85a-395f-448d-adad-291d914b71e6",
         "name": "Update successful",
         "webhookId": "d684025b-1c8c-4b5f-a3eb-4780f8663785"
       },
@@ -768,10 +768,10 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          3024,
-          688
+          448,
+          160
         ],
-        "id": "5e588837-f118-42b9-a712-e6bcc9c56380",
+        "id": "491a36d5-e71e-4c9b-acdc-708fbbe12d64",
         "name": "New Workflow Commit Successfully",
         "webhookId": "d684025b-1c8c-4b5f-a3eb-4780f8663785"
       },
@@ -795,10 +795,10 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          2640,
-          688
+          64,
+          160
         ],
-        "id": "fa4e2730-a489-4585-ba4d-7d1674c4035d",
+        "id": "df38fc32-b7a7-4473-925e-c06b249e1614",
         "name": "Comment for new workflow",
         "webhookId": "8ccc5037-d4c1-4a50-900f-64fb81df1ead"
       },
@@ -823,34 +823,12 @@
         "type": "n8n-nodes-base.form",
         "typeVersion": 1,
         "position": [
-          2688,
-          272
+          112,
+          -272
         ],
-        "id": "8d16e9b1-1843-485d-a6db-bcde05123067",
+        "id": "da531238-4491-4fbc-bb56-990ec56e7bd5",
         "name": "Comment for commit",
         "webhookId": "8ccc5037-d4c1-4a50-900f-64fb81df1ead"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          608,
-          16
-        ],
-        "typeVersion": 1,
-        "id": "526f9458-7d1f-4f83-8b4c-11aa16e3c31e",
-        "name": "Sticky Note7"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          304,
-          176
-        ],
-        "typeVersion": 1,
-        "id": "6f3eaef5-7d39-43c0-937d-de37d068b2a8",
-        "name": "Sticky Note8"
       }
     ],
     "connections": {
@@ -1144,7 +1122,7 @@
       "templateCredsSetupCompleted": true
     },
     "pinData": {},
-    "versionId": "8f2df097-9a04-4f69-9e14-b821067fd35a",
+    "versionId": "253b2a49-04cb-4016-ac65-e8e40f6037a2",
     "triggerCount": 1,
     "shared": [
       {
@@ -1209,3 +1187,4 @@
       }
     ]
   }
+]
