@@ -1145,7 +1145,7 @@
               "projectId": "smqD3en6ntzThqUk",
               "user": {
                 "createdAt": "2025-10-06T21:57:46.742Z",
-                "updatedAt": "2025-10-19T10:34:04.000Z",
+                "updatedAt": "2025-10-19T12:36:02.279Z",
                 "id": "07d13922-f245-4e51-98d2-acbaa5a0715a",
                 "email": "benedikt.huelshorst@alumni.fh-aachen.de",
                 "firstName": "Benedikt",
@@ -1162,7 +1162,9 @@
                   "reportedSourceOther": "Teacher"
                 },
                 "settings": {
-                  "userActivated": false
+                  "userActivated": true,
+                  "firstSuccessfulWorkflowId": "Bll1QuEaQCAUrgmH",
+                  "userActivatedAt": 1760877362237
                 },
                 "disabled": false,
                 "mfaEnabled": false,
