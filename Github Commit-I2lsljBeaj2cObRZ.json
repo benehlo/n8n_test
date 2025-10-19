@@ -1,7 +1,7 @@
 [
   {
     "createdAt": "2025-10-19T13:19:41.046Z",
-    "updatedAt": "2025-10-19T14:05:40.000Z",
+    "updatedAt": "2025-10-19T15:20:40.000Z",
     "id": "I2lsljBeaj2cObRZ",
     "name": "Github Commit",
     "active": true,
@@ -834,34 +834,12 @@
         "parameters": {},
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          -2000,
+          -2016,
           -560
         ],
         "typeVersion": 1,
-        "id": "d3ca3e8f-84a3-4955-9d60-5b1464038c92",
+        "id": "06bdc4f2-e974-40c7-9531-17f0fadc430b",
         "name": "Sticky Note7"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          -1616,
-          -576
-        ],
-        "typeVersion": 1,
-        "id": "58d91620-877a-4d9c-a37d-7c75b74619ae",
-        "name": "Sticky Note8"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          -800,
-          -80
-        ],
-        "typeVersion": 1,
-        "id": "ca015d2b-932e-40b9-afd5-218e34629613",
-        "name": "Sticky Note9"
       }
     ],
     "connections": {
@@ -1155,7 +1133,7 @@
       "templateCredsSetupCompleted": true
     },
     "pinData": {},
-    "versionId": "2040cd13-bf1f-4cb8-8071-50cb11e71e05",
+    "versionId": "68b6e031-30c2-4d33-9398-f7bdd2a75b51",
     "triggerCount": 1,
     "shared": [
       {
@@ -1180,7 +1158,7 @@
               "projectId": "smqD3en6ntzThqUk",
               "user": {
                 "createdAt": "2025-10-06T21:57:46.742Z",
-                "updatedAt": "2025-10-19T12:36:02.279Z",
+                "updatedAt": "2025-10-19T14:49:52.000Z",
                 "id": "07d13922-f245-4e51-98d2-acbaa5a0715a",
                 "email": "benedikt.huelshorst@alumni.fh-aachen.de",
                 "firstName": "Benedikt",
