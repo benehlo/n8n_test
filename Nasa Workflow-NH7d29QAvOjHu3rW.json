@@ -1,7 +1,7 @@
 [
   {
     "createdAt": "2025-10-08T11:45:53.269Z",
-    "updatedAt": "2025-10-19T15:06:50.000Z",
+    "updatedAt": "2025-10-19T15:46:35.000Z",
     "id": "NH7d29QAvOjHu3rW",
     "name": "Nasa Workflow",
     "active": false,
@@ -94,8 +94,8 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          -208,
-          -176
+          -400,
+          -224
         ],
         "typeVersion": 1,
         "id": "ea5898ab-9efe-499c-b80d-458fd5e39fe9",
@@ -105,12 +105,23 @@
         "parameters": {},
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          288,
-          -176
+          64,
+          -192
         ],
         "typeVersion": 1,
         "id": "51e19151-57b7-4a7f-a6cc-67f78aea9815",
         "name": "Sticky Note1"
+      },
+      {
+        "parameters": {},
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [
+          448,
+          -176
+        ],
+        "typeVersion": 1,
+        "id": "598fa188-2ad0-4e97-94ef-f309bb5c113a",
+        "name": "Sticky Note2"
       }
     ],
     "connections": {
@@ -155,7 +166,7 @@
       "templateCredsSetupCompleted": true
     },
     "pinData": {},
-    "versionId": "d0c98c7b-a43f-4335-b057-75483bf80f57",
+    "versionId": "b50d2076-eb61-49de-b7b3-de8e2b5d4157",
     "triggerCount": 1,
     "shared": [
       {
