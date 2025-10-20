@@ -505,7 +505,7 @@
       },
       {
         "parameters": {
-          "content": "## Click [here](<Your submission URL>?id=ABCDEFG1234567) to commit change ",
+          "content": "## Click [here](https://your-n8n-url/form/commit?id=123456789ABC) to commit change ",
           "height": 140,
           "width": 440,
           "color": 5
