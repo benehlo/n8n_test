@@ -1,4 +1,4 @@
-[
+
   {
     "createdAt": "2025-10-20T07:30:43.224Z",
     "updatedAt": "2025-10-20T07:33:09.000Z",
@@ -505,7 +505,7 @@
       },
       {
         "parameters": {
-          "content": "## Click [here](http://localhost:5678/form/commit?id=u0Rf8wp2rJhzkFlj) to commit change ",
+          "content": "## Click [here](<Your submission URL>?id=ABCDEFG1234567) to commit change ",
           "height": 140,
           "width": 440,
           "color": 5
@@ -1173,4 +1173,3 @@
       }
     ]
   }
-]
