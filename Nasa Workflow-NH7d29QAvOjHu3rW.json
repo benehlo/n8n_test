@@ -1,7 +1,7 @@
 [
   {
     "createdAt": "2025-10-08T11:45:53.269Z",
-    "updatedAt": "2025-10-19T16:14:00.000Z",
+    "updatedAt": "2025-10-20T10:40:37.000Z",
     "id": "NH7d29QAvOjHu3rW",
     "name": "Nasa Workflow",
     "active": false,
@@ -94,45 +94,12 @@
         },
         "type": "n8n-nodes-base.stickyNote",
         "position": [
-          -400,
-          -224
+          0,
+          -208
         ],
         "typeVersion": 1,
-        "id": "ea5898ab-9efe-499c-b80d-458fd5e39fe9",
+        "id": "c65a4452-4058-4f46-af0a-b9949670a545",
         "name": "Sticky Note"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          64,
-          -192
-        ],
-        "typeVersion": 1,
-        "id": "51e19151-57b7-4a7f-a6cc-67f78aea9815",
-        "name": "Sticky Note1"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          448,
-          -176
-        ],
-        "typeVersion": 1,
-        "id": "598fa188-2ad0-4e97-94ef-f309bb5c113a",
-        "name": "Sticky Note2"
-      },
-      {
-        "parameters": {},
-        "type": "n8n-nodes-base.stickyNote",
-        "position": [
-          160,
-          176
-        ],
-        "typeVersion": 1,
-        "id": "392389e3-2355-4fa0-9eec-bb34133b5ee8",
-        "name": "Sticky Note3"
       }
     ],
     "connections": {
@@ -177,7 +144,7 @@
       "templateCredsSetupCompleted": true
     },
     "pinData": {},
-    "versionId": "4d6ddc1d-031b-43fd-8e01-8ac4a199b6cb",
+    "versionId": "56ee857e-957e-49bf-8bf3-a997ed633cb2",
     "triggerCount": 1,
     "shared": [
       {
@@ -202,7 +169,7 @@
               "projectId": "smqD3en6ntzThqUk",
               "user": {
                 "createdAt": "2025-10-06T21:57:46.742Z",
-                "updatedAt": "2025-10-19T14:49:52.000Z",
+                "updatedAt": "2025-10-19T22:21:22.000Z",
                 "id": "07d13922-f245-4e51-98d2-acbaa5a0715a",
                 "email": "benedikt.huelshorst@alumni.fh-aachen.de",
                 "firstName": "Benedikt",
@@ -225,7 +192,7 @@
                 },
                 "disabled": false,
                 "mfaEnabled": false,
-                "lastActiveAt": "2025-10-19",
+                "lastActiveAt": "2025-10-20",
                 "isPending": false
               }
             }
